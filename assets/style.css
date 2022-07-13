@@ -14,9 +14,9 @@
 
 
 
-.container{
+/* .container{
     margin: 0 10vh !important;
-}
+} */
 
 .homelogo{
     position: fixed;
@@ -250,4 +250,119 @@ top:35vh;
 .textsect6{
     align-self:baseline;
     padding-top: 200px;
+}
+
+/* section7 */
+
+.blockhaut{
+    width:100vw;
+    height:25vh;
+    color:white;
+}
+
+.blockbas{
+    height:75vh;
+    width:100vw;
+    background-color:rgb(235, 235, 235);
+}
+
+.btnfooterhaut{
+    margin-top: 3em;
+display:flex;
+justify-content:space-between;
+
+}
+
+.btnfooter{
+    height:12vh;
+    width:12vw;
+    border:none;
+    padding:10px 15px;
+    background-color:white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btnfooter1{ 
+    color:#fe441f;
+    box-shadow: 5px 5px #fe441f;
+      
+}
+.btnfooter2{ 
+    color:#feb429;
+    box-shadow: 5px 5px #feb429;
+      
+}
+.btnfooter3{ 
+    color:#1fd3fe;
+    box-shadow: 5px 5px #1fd3fe;
+      
+}
+.btnfooter4{ 
+    color:#0a0103;
+    box-shadow: 5px 5px #0a0103;
+      
+}
+.btnfooter5{ 
+    color:#2964d5;
+    box-shadow: 5px 5px #2964d5;
+      
+}
+
+.txtfooter{
+    height:32vh;
+    font-size:40px;
+    margin-left:25vw;
+    font-weight: bold;
+    display:flex;
+    align-items:center;
+}
+
+.btnfooterbas{
+    text-align:center;
+    height:7vh;
+    width:17vw;  
+}
+
+.btnfooterbas1{
+    text-align:center;
+    height:7vh;
+    width:17vw;
+    border:none;
+    background-color:white;
+    padding:10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    color:#0a0103;
+    box-shadow: 5px 5px #0a0103;
+}
+
+.footer{
+display: flex;
+align-items:center;
+background-color:#0a0103;
+color:#bebebe;
+height:50px;
+font-size:small;
+justify-content:space-between;
+}
+
+.footer p{
+    margin: 0;
+}
+
+.footericons{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:1em;
+}
+
+.bi{
+    color:white;
+    text-align:center;
+}
+
+.fp-watermark{
+    display:none !important;
 }
