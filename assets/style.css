@@ -22,7 +22,7 @@
     position: fixed;
     top: 0;
     color:black;
-    width:40vw;
+    margin-left: 50px;
 }
 
 .hometxt{
@@ -40,7 +40,7 @@
     flex-direction: row;
     gap: 20px;
     position: absolute;
-    bottom: 50px;
+    bottom: 100px;
     
    }
 
@@ -83,19 +83,19 @@ padding:10px 15px;
 .equipehome{
     position:absolute;
     right:10vh;
-    bottom:50px;
+    bottom:100px;
 }
 
 .btnequip{
-    height:10vh;
-    width:20vh;
+    height:8vh;
+    width:12vw;
     border: none;
     border-radius: 2px;
     background-color: #1fd3fe;
     color: white;
     padding: auto;
     text-align: center;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 5px 5px black;
 }
 
 
@@ -132,7 +132,7 @@ padding:10px 15px;
     
     right:10vh;
     object-fit: cover;
-    height: 58vh;
+    height: auto;
     width:40vw;
 }
 
@@ -156,19 +156,19 @@ color: #feb11f;
 }
 
 .bodysect3{
-    margin-top:3em;
+    
     gap: 2em;
     width: 100%;
 }
 
 .imgsect3{
-    height:50vh;
+    height:auto;
     width:50vw;
 }
 
 .textsect3 p{
-    margin:auto 0;
-    padding: 25px;
+
+    padding-top: 50px;
 }
 
 /* Section4 */
@@ -194,12 +194,12 @@ padding: 13px 20px;
 background-color:#fe441f ;
 color:white;
 border-radius: 5px;
-box-shadow: 5px 5px 5px black;
+box-shadow: 5px 5px black;
 font-weight:bold;
 }
 
 .imgsect4{
-    height:50vh;
+    height:auto;
     width:35vw;
 }
 
@@ -233,7 +233,7 @@ top:35vh;
     border: none;
     padding: 15px 20px;
     border-radius: 5px;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 5px 5px  black;
     color:white;
 }
 
